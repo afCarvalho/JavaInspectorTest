@@ -21,7 +21,11 @@ public class C extends B {
 		return "int: " + arg1 + " int: " + arg2 + " float: " + arg3;
 	}
 	
-	public int metodo4(int i){
-		return i+1;
+	public String metodo4(int i){
+		return "eu sou metodo4 com arg int" + i;
+	}
+	
+	public String metodo4(float i){
+		return "eu sou metodo4 com arg float" + i;
 	}
 }
