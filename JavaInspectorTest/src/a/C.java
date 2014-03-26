@@ -25,7 +25,31 @@ public class C extends B {
 		return "eu sou metodo4 com arg int" + i;
 	}
 	
-	public String metodo4(float i){
-		return "eu sou metodo4 com arg float" + i;
+	public String metodo5(int i, float f){
+		return "eu sou metodo5.1.1 com arg int: " + i + " arg float:" + f;
+	}
+	
+	public String metodo5(long l, float f){
+		return "eu sou metodo5.1.2 com arg long: " + l + " arg float:" + f;
+	}
+	
+	public String metodo5(int i, double d){
+		return "eu sou metodo5.2.1 com arg int: " + i + " arg double:" + d;
+	}
+	
+	public String metodo5(double d, int i){
+		return "eu sou metodo5.2.2 com arg double: " + d + " arg int:" + i;
+	}
+	
+	public String metodo5(long l, double d){
+		return "eu sou metodo5.3.1 com arg long: " + l + " arg double:" + d;
+	}
+	
+	public String metodo6(char c, double d){
+		return "eu sou metodo6.1.1 com arg char: " + c + " arg double:" + d;
+	}
+	
+	public String metodo6(String s, double d){
+		return "eu sou metodo6.1.2 com arg String: " + s + " arg double:" + d;
 	}
 }
