@@ -9,7 +9,7 @@ public class C extends B {
 	public boolean cb = true;
 
 	// desta classe
-	private String staticS = "C: eu sou string da C";
+	private String sc = "C: eu sou string da C";
 	
 	public static String staticString = "sou static string";
 
