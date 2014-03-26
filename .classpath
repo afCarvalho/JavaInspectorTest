@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="JavaInspectorTest/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="JavaInspectorTest/src/inspector.jar"/>
+	<classpathentry kind="lib" path="/JavaInspector/inspector.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
