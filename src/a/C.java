@@ -1,5 +1,7 @@
 package a;
 
+import java.util.ArrayList;
+
 public class C extends B {
 	// duplicados com B
 	private int a = 2;
@@ -9,6 +11,10 @@ public class C extends B {
 	public boolean cb = true;
 
 	// desta classe
+	private F classeF1 = new F("sou da F");
+	private F classeF2;	
+	
+	
 	private String sc = "C: eu sou string da C";
 	
 	public static String staticString = "sou static string";
