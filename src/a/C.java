@@ -13,6 +13,7 @@ public class C extends B {
 	// desta classe
 	private F classeF1 = new F("sou da F");
 	private F classeF2;	
+	private Long long1 = new Long(12);
 	
 	
 	private String sc = "C: eu sou string da C";
